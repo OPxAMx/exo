@@ -8,6 +8,7 @@
     <script src="./search.min.js.télécharger" defer=""> </script>
     <script src="./navbar.min.js.télécharger" defer=""></script>
 </head>
+<body>
 	<nav id="navbar"><a class="logo" href="#"><img src="https://opxamx.github.io/exo/logo.svg" type="image/svg"></a><a href="#">
         <button>Accueil</button></a><a href="#">
         <button>Explorer</button></a><a href="#">
@@ -318,3 +319,31 @@
 <div class="s-item"><img src="https://opxamx.github.io/exo/img.Ref/5449000286888.jpg"><div class="s-footer-head"><span id="name">Wtfanta Green 330ml</span></div><div class="s-footer-foot"><span id="price">1X2</span><a href="https://opxamx.github.io/exo/VALEUR.NUTRITIVE/5449000286888.png"><button id="see">LABEL CLICK HERE</button></a></div></div>
 		</div>
     </div>
+		<div class="mobile-drop"> <a href="/">
+        <button>Accueil</button></a><a href="/explore">
+        <button>Explorer</button></a><a href="/about-us">
+        <button>À propos</button></a></div>
+    <div class="modal-drop">
+      <div class="header"><span></span><span>Article </span><span>Quantité</span><span>Prix</span><span></span></div>
+    </div>
+    <div class="modal-back"></div><img class="leaves" id="top-left" src="https://opxamx.github.io/exo/bRight.png" type="image/png">
+    <div class="top-row"> <img class="leaves" src="https://opxamx.github.io/exo/leaf (12).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (7).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (2).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (4).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (11).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (6).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (9).svg" type="image/svg"></div><img class="leaves" id="top-right" src="https://opxamx.github.io/exo/leaf (14).svg" type="image/svg"><img class="leaves" id="bottom-left" src="https://opxamx.github.io/exo/leaf (14).svg" type="image/svg">
+    <div class="bottom-row"> <img class="leaves" src="https://opxamx.github.io/exo/leaf (12).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo//leaf (7).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (2).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (4).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (11).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (6).svg" type="image/svg"><img class="leaves" src="https://opxamx.github.io/exo/leaf (9).svg" type="image/svg"></div><img class="leaves" id="bottom-right" src="https://opxamx.github.io/exo/bRight.png" type="image/png">
+  </body>
+</html>
+<template id="cart-template">
+  <div class="item"><img><span id="name"></span>
+    <div class="cart-quantity">
+      <input id="remove" type="image" src="/images/minus.svg"><span></span>
+      <input id="add" src="/images/plus.svg" type="image">
+    </div><span id="price"></span>
+    <input id="trash" src="/images/trash.svg" type="image">
+  </div>
+</template>
+<template id="item-template"> 
+  <div class="s-item"><img>
+    <div class="s-footer-head"> <span id="name"></span></div>
+    <div class="s-footer-foot"> <span id="price"></span><a>
+        <button id="see">Voir Item</button></a></div>
+  </div>
+</template>
